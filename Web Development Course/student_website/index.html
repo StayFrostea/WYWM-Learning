@@ -4,23 +4,29 @@
 <head>
     <!--This is metadata for our document-->
     <title>Spotify API Project</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <h1>Music Search Website</h1>
-    <div>
-        <p>Here is where you can look up details on a specific song!</p>
-        <input type="text" placeholder="Enter song.." />
-        <input type="button" value="Search" />
-    </div>
-    <p>Or select from one of my favourites!</p>
-    <div>
-        <select>
-            <option>Test option</option>
-        </select>
-        <input type="button" value="Select" />
-    </div>
-    <img src="picture.png" alt="this is a picture." width="500" height="500" />
+    <section>
+        <h1>Music Search Website</h1>
+        <div class="container__search">
+            <p>Here is where you can look up details on a specific song!</p>
+            <input type="text" placeholder="Enter song.." />
+            <input type="button" value="Search" />
+        </div>
+        
+        <div class="example__pic">
+            <img src="picture.png" alt="this is a picture." width="500" height="500" />
+        </div>
+        <p>Or select from one of my favorites!</p>
+        <div class="container__option">
+            <select>
+                <option>Test option</option>
+            </select>
+            <input type="button" value="Select" />
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,54 @@
+/* Jeff Roszell */
+
+body {
+    background: rgb(0, 0, 0);
+}
+section {
+    background: rgb(90, 110, 90);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 3px;
+    border-color: blue;
+}
+
+p::first-line {
+    color: rgb(93, 0, 0);
+}
+
+img {
+    left: auto;
+    border-radius: 50%;
+}
+
+.example__pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+.container__option {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align:center;
+}
+
+.container__search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align: center;
+}
